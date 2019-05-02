@@ -12,7 +12,7 @@ function zipList(list1, list2) {
   return newList;
 }
 
-console.log(zipList([1, 2, 3], ['a', 'b', 'c']));
+// console.log(zipList([1, 2, 3], ['a', 'b', 'c']));
 
 function zipListTheSimpleWay(list1, list2) {
   let newList = [];
@@ -20,4 +20,4 @@ function zipListTheSimpleWay(list1, list2) {
   return _.flatten(newList);
 }
 
-console.log(zipListTheSimpleWay([1, 2, 3], ['a', 'b', 'c']));
+// console.log(zipListTheSimpleWay([1, 2, 3], ['a', 'b', 'c']));
